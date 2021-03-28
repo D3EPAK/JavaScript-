@@ -1,0 +1,10 @@
+function sum_square(n){
+	for(i=1; i<=n; i++){
+		var s = n*(n+1)*(2*n+1)/6
+	}var sum=0
+		for(i= 1; i<=n; i++){
+		sum +=i
+	}	var SuM = sum*sum
+		var lastSum = SuM-s
+	console.log(lastSum)
+}sum_square(100)
